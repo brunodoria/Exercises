@@ -1,0 +1,10 @@
+!!!
+abcdefghi
+
+
+blublublu
+blobloblo
+bliblibli
+blebleble
+blablabla
+teste de leitura/escrita em arquivos
