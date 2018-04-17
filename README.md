@@ -14,13 +14,13 @@ E para executar determinado exercício 'name' basta estar na pasta correspondent
 Os exercícios numerados foram retirados do livro:
 How to Think Like a Computer Scientist: Learning with Python 3 Documentation, 3rd Edition
 
-  Peter Wentworth
+      -Peter Wentworth
 
-  Jeffrey Elkner
+      -Jeffrey Elkner
 
-  Allen Downey
+      -Allen Downey
 
-  Chris Meyers
+      -Chris Meyers
 
 
 Os demais exercícios, cujos enunciados se encontram comentados nos respectivos arquivos, foram propostos pelo Professor.
