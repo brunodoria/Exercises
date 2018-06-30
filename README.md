@@ -10,6 +10,7 @@ E para executar determinado exercício, 'name', basta estar na pasta corresponde
 
     python 'name'.py
 
+#### Primeiro Bimestre
 Os exercícios numerados foram retirados do livro:
 
 --- How to Think Like a Computer Scientist: Learning with Python 3 Documentation, 3rd Edition
@@ -18,3 +19,11 @@ Os exercícios numerados foram retirados do livro:
 
 
 Os demais exercícios, cujos enunciados se encontram comentados nos respectivos arquivos, foram propostos pelo Professor.
+
+#### Segundo Bimestre
+Todos exercícios foram propostos pelo Professor; o enunciado se encontra no respectivo arquivo.
+Para executar os exercícios, além do python3 verifique a instalação do Flask:
+
+    pip install Flask  
+
+Assim, todos os exercícios devem rodar sem erros de importação.

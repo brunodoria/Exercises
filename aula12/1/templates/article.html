@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mudança de Fontes</title>
+</head>
+<body>
+
+<h1> Olá, visitante !!! Escolha sua fonte preferida para a leitura do texto.</h1>
+<p> Será que alguém realmente gosta de "Comic Sans" ???</p>
+
+Selecione sua fonte preferida: <br>
+<form action="" method="post">
+    <select name="font" onchange="submit()">
+        <option value="">----</option>
+        <option value="tahoma" {% if request.cookies.get('font') == 'tahoma' %}selected{% endif %}>Tahoma</option>
+        <option value="arial" {% if request.cookies.get('font') == 'arial' %}selected{% endif %}>Arial</option>
+        <option value="verdana" {% if request.cookies.get('font') == 'verdana' %}selected{% endif %}>Verdana</option>
+        <option value="cursive" {% if request.cookies.get('font') == 'cursive' %}selected{% endif %}>Comic Sans</option>
+        <option value="courier" {% if request.cookies.get('font') == 'courier' %}selected{% endif %}>Courier</option>
+    </select>
+</form>
+<div style="{% if request.cookies.get('font') %}font-family:{{ request.cookies.get('font') }}{% endif %}">
+<h2>selling art online</h2>
+
+ <img src="{{url_for('static', filename='gallery.jpg')}}" width="300" height="200"/>
+
+<p>Online art galleries are usually huge websites with a great number of visitors, where artists can upload their work in order to be seen by thousands.
+Most websites have a curating and marketing team on board, and can help give your artwork special visibility within the platform, by sharing your art on blogs or specially curated collection.
+Additionally, most of this websites have a global audience, allowing you to sell art all around the world.
+</p>
+<p>Since some of these websites are so big, that they have thousand of artists it might be difficult to achieve any visibility. So it’s important to have a clear marketing plan for your art career in general and complement that by reaching out to the
+   marketing team within the online art gallery as asking to be eatured on their blog or social media
+   or maybe offering to do an interview to talk about your art.</p>
+
+<p>Texto publicado em: https://artplusmarketing.com/3-strategies-to-start-selling-art-online-6224931d6aed</p>
+</div>
+</body>
+</html>
